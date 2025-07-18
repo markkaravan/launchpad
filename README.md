@@ -1,0 +1,1 @@
+    // "serve": "browser-sync start --server --files '**/*.html', 'static/css/*.css'",

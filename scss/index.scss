@@ -1,0 +1,32 @@
+// scss/index.scss
+
+@use "base";
+
+body {
+  background: #fffbe6; // subtle yellow background to differentiate
+}
+
+h1 {
+  color: #e76f51;
+}
+
+ul {
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+
+li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #3a0ca3;
+  font-weight: bold;
+  border-bottom: 2px dashed #3a0ca3;
+}
+
+a:hover {
+  color: #560bad;
+  border-bottom-style: solid;
+}

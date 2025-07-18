@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Sass cache
+.sass-cache/
+*.css.map
+
+# Build outputs (optional if you're committing static CSS)
+static/css/*.css
+
+# macOS system files
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
+
+# Logs
+*.log
+
+# dotenv (if you ever add env config)
+.env

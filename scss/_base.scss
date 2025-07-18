@@ -1,0 +1,50 @@
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 2rem;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2a9d8f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #2a9d8f;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  a {
+    color: #3a86ff;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px dotted #3a86ff;
+  }
+  
+  a:hover {
+    color: #1d4ed8;
+    border-bottom-style: solid;
+  }
+  
+  form input,
+  form button {
+    padding: 0.6em 1em;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  form button:hover {
+    background-color: #21867a;
+  }

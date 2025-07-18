@@ -21,6 +21,7 @@
     "sass": "^1.89.2"
   },
   "dependencies": {
+    "dotenv": "^17.2.0",
     "express": "^5.1.0"
   }
 }

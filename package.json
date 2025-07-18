@@ -7,7 +7,8 @@
     "build": "sass scss:static/css --no-source-map",
     "watch:scss": "sass --watch scss:static/css --no-source-map",
     "serve": "nodemon server.js",
-    "dev": "npm-run-all --parallel watch:scss serve"
+    "dev": "npm-run-all --parallel watch:scss serve",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",

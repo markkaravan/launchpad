@@ -8,7 +8,14 @@
     "watch:scss": "sass --watch scss:static/css --no-source-map",
     "serve": "nodemon server.js",
     "dev": "npm-run-all --parallel watch:scss serve",
-    "start": "node server.js"
+    "start": "node server.js",
+    "start:pm2": "pm2 start server.js --name launchpad",
+    "restart:pm2": "pm2 restart launchpad",
+    "stop:pm2": "pm2 stop launchpad",
+    "delete:pm2": "pm2 delete launchpad",
+    "logs:pm2": "pm2 logs launchpad",
+    "save:pm2": "pm2 save",
+    "startup:pm2": "pm2 startup"
   },
   "keywords": [],
   "author": "",
